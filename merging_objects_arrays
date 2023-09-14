@@ -1,0 +1,30 @@
+// Merging Objects
+
+const objectOne = {
+    name: "John",
+    language: 'JavaScript',
+    sport: 'Football'
+}
+
+const objectTwo = {
+    lastName: "Shu",
+    age: 33,
+    martialArt: 'Jiu Jitsu'
+}
+
+const merged = {...objectOne, ...objectTwo}; // Merging objects using the spread operator
+console.log(merged);
+
+console.log(objectOne, objectTwo);
+
+// Merging Arrays
+const arrayOne = [1, 2, 3, 4, 5];
+const arrayTwo = [6, 7, 8, 9, 10];
+
+const mergedArr = {...arrayOne, ...arrayTwo}; // Merging arrays using the spread operator
+console.log(mergedArr);
+
+// 2 KEY Things To Remember
+
+// Neither mutates
+// Order matters if overlap
