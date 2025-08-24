@@ -1,4 +1,4 @@
-// 1) What is the array? 
+// 1) What is the array?
 
 // A collection of indexable, ordered, comma separated items, of any data type.
 
